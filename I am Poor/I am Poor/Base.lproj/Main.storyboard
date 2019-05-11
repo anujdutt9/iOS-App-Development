@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_am_Poor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Don't Ask me for Money 💰" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnm-kf-7nT">
+                                <rect key="frame" x="20" y="202" width="339" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="508-eN-0Kd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coal" translatesAutoresizingMaskIntoConstraints="NO" id="TDf-0T-lFn">
+                                <rect key="frame" x="60" y="376" width="294" height="281"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I AM POOR 🥺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j9Q-et-6Yv">
+                                <rect key="frame" x="20" y="297" width="259" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="coc-nO-lHd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gnm-kf-7nT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="2jF-xq-9Wh"/>
+                            <constraint firstItem="TDf-0T-lFn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CC8-yP-Xa2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gnm-kf-7nT" secondAttribute="trailing" constant="66" id="Iud-3l-zyj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TDf-0T-lFn" secondAttribute="bottom" constant="205" id="UYD-0I-sRl"/>
+                            <constraint firstItem="TDf-0T-lFn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="dy9-um-lNh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="j9Q-et-6Yv" secondAttribute="trailing" symbolic="YES" id="hfI-Fa-dBr"/>
+                            <constraint firstItem="TDf-0T-lFn" firstAttribute="top" secondItem="j9Q-et-6Yv" secondAttribute="bottom" constant="32" id="lez-Hq-7ys"/>
+                            <constraint firstItem="gnm-kf-7nT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="182" id="qeK-lh-zxM"/>
+                            <constraint firstItem="gnm-kf-7nT" firstAttribute="leading" secondItem="j9Q-et-6Yv" secondAttribute="leading" id="tR5-TX-c6o"/>
+                            <constraint firstItem="j9Q-et-6Yv" firstAttribute="top" secondItem="gnm-kf-7nT" secondAttribute="bottom" constant="39" id="xNJ-Td-LXn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.200000000000003" y="20.239880059970016"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coal" width="226.5" height="192"/>
+    </resources>
+</document>
